@@ -2,12 +2,12 @@ import smtplib, ssl
 
 port = 587  # For starttls
 smtp_server = "smtp.gmail.com"
-sender_email = "ramapriya3105@gmail.com"
-rec_list =  ['ramamaha827@gmail.com', 'ramapriyamanickam3105@gmail.com','mithunramesh300905@gmail.com','78mahee@gmail.com','pandi.ganesh2000m@hmail.com','priyadharsi31@gmail.com','953615104027@ritrjpm.ac.in']
+sender_email = "example@gmail.com"
+rec_list =  ['example1@gmail.com', 'example2@gmail.com','example3@gmail.com']
 rec =  ', '.join(rec_list)
 
 
-password = "dharshini05@"
+password = "enter your password"
 message = """\
 Subject: Hi there
 
